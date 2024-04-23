@@ -10,8 +10,8 @@ variable "sg_cidrs" {}
 variable "bastion_cidrs" {}
 variable "kms" {}
 variable "prometheus_cidrs" {}
-#variable "alb_name" {}
-#variable "listener_arn" {}
+variable "alb_name" {}
+variable "listener_arn" {}
 variable "route53_zone_id" {}
-#variable "priority" {}
-#variable "dns_name" {}
+variable "priority" {}
+variable "dns_name" {}
