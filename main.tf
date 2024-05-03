@@ -175,8 +175,8 @@ resource "aws_iam_role" "main" {
             "s3:DeleteObject"
           ],
           "Resource" : [
-            "arn:aws:s3:::d76-prometheus-alert-rules/*",
-            "arn:aws:s3:::d76-prometheus-alert-rules"
+            "arn:aws:s3:::min-prometheus-alert-rule/*",
+            "arn:aws:s3:::min-prometheus-alert-rule"
           ]
         }
       ]
