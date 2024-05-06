@@ -209,7 +209,7 @@ resource "aws_lb_listener_rule" "main" {
 
   condition {
     host_header {
-      values = ["${local.dns_name}.rdevopsb72.online"]
+      values = ["${local.dns_name}.devopsmins.online"]
     }
   }
 }
